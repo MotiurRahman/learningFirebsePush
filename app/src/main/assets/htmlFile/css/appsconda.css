@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'fira_sans_condensedregular';
+    src: url('../fonts/firasanscondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/firasanscondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'fira_sans_condensedregular';
+    background-image: url("../images/bg.png");
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #4446c5;
+}
+.appscondamenu.container .col-sm {
+    width: 33.33%;
+}
+.appscondamenu.container {
+    bottom: 15px;
+    position: absolute;
+	width: 100%;
+}
+.appsconda-menu-icon {
+    max-width: 100px;
+    height: auto;
+    padding: 0px 10px;
+    width: 100%;
+}
+.appsconda-menu-item-container {
+    text-align: center;
+}
+.row.appsconda-menu-row {
+    margin-top: 50px;
+}
+.appsconda-menu-item-title {
+    color: #fff;
+}
+
+
+/*Expanded Menu Start*/
+.appscondamenu.container.expanded-menu {
+    overflow-y: scroll;
+    max-height: 60%;
+}
+.appscondamenu.container.expanded-menu img {
+    width: 40px;
+    margin-right: 10px;
+}
+.loadingdiv {
+  max-height:0px;
+  overflow:hidden;
+  text-align: center;
+}
+/*Expanded Menu End*/
